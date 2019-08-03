@@ -1,3 +1,6 @@
 def current_age_for_birth_year(age)
-      Time.now.year - age
-end
+  do
+    current_year = Time.now.year 
+    return current_year - age
+  end
+      
